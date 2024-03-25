@@ -1,0 +1,99 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+#title {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+#inputText {
+
+    width: 300px;
+    height: 46px;
+    border: 1px solid #000;
+    outline: none;
+    /*Tıkladıgın vakit kenarlıkları yok eder*/
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    color: purple;
+
+
+}
+
+#addToDo {
+
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    /* Dikey hizalamada ortada */
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+
+
+}
+
+#addToDo:hover {
+    background: blue;
+
+}
+
+#clearToDo {
+
+    height: 45px;
+    width: 100px;
+    border: 1px solid black;
+    vertical-align: middle;
+    /* Dikey hizalamada ortada */
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+
+
+}
+
+#clearToDo:hover {
+    background: purple;
+
+}
+
+.paragraph.styling {
+
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: purple;
+    text-transform: capitalize;
+    /*text-transform özelliği, metnin büyük harf
+     kullanımını kontrol eder. 
+     capitalize değeri, her kelimenin ilk harfini büyük harfe dönüştürür. 
+     Diğer karakterler değişmeden kalır ve orijinal durumlarını korur */
+}
+
+.to-dos
+{
+
+    margin-top: 25px;
+}
